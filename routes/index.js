@@ -4,7 +4,7 @@ var router = express.Router();
 
 
 let toDoItems = [
-  { id: 1, task: "buy milk" }
+  { id: 1, task: "get groceries" }
 ]
 
 router.get("/", (_, res) => {
