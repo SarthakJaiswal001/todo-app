@@ -1,0 +1,85 @@
+.container {
+  /* border: 1px solid red; */
+  padding: 10px 20px;
+}
+
+.heading {
+  color: #32012F;
+  font-style: normal;
+  font-family: monospace;
+  text-align: center;
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: #524C42;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: monospace;
+}
+#addnewtask{
+  
+  color: white;
+  background: #F97300;
+  padding: 7px 0px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+height:50px;
+width:170px;
+}
+#addnewtask a{
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  
+}
+.list-container {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  font-style: monospace;
+  padding-right: 9px;
+}
+
+a {
+  padding-left: 12px;
+}
+
+button {
+  color: white;
+  background: black;
+  padding: 6px 17px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.newtask{
+  color: #32012F;
+  font-family: monospace;
+  font-size: 40px;
+}
+.entertask{
+  color: #32012F;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.inputbox{
+  padding:10px, 15px;
+
+}
+#btnadd{
+  font-size: 20px;
+  font-family: monospace;
+}
+.deletebtn{
+  color:white;
+  background: #322C2B;
+  height: 40px;
+  weight:120px;
+}

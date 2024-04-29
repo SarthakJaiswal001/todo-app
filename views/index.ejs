@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href='/stylesheets/style.css' />
+    <title>Todo Application</title>
+  </head>
+  <body class="container">
+    <h1 class="heading">Todo Application</h1>
+    <ul class="list-container">
+      <% toDoItems.length > 0 && toDoItems.map((item,index) => { %>
+      <li class="list-item">
+        <%= item.task %>
+        <a href="/edit/<%= item.id %>">Edit</a>
+        <form method="post" action="/delete/<%= item.id %>">
+          <button class="deletebtn" type="submit">Delete</button>
+        </form>
+      </li>
+      <% }); %>
+    </ul>
+    <div id="addnewtask">
+      <a href="/new/">Add New Work</a>
+    </div>
+    
+  </body>
+</html>

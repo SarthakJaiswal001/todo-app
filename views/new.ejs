@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href='/stylesheets/style.css' />
+    <title>Add New Work</title>
+  </head>
+  <body>
+    <h2 class="newtask">Add New Task</h2>
+    <div>
+      <form method="post" action="/new">
+        <label class="entertask" for="taskname">Enter Work to be Done</label>
+        <input class="inputbox" type="text" name="task" id="task" required />
+        <button id="btnadd"type="submit">Add Task</button>
+      </form>
+    </div>
+  </body>
+</html>
